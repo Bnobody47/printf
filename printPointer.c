@@ -6,7 +6,6 @@
 /**
  * printPointer - prints an hexgecimal num.
  * @val: arguments.
- * @num: number
  * Return: the counter
  */
 

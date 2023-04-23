@@ -6,7 +6,6 @@
 /**
  * printExclusive_string - print exclusives strings.
  * @val: argument.
- * @num: Number
  * Return: string length
  */
 
