@@ -5,7 +5,8 @@
 
 /**
  * printPointer - prints an hexgecimal num.
- * @val: is an arguments.
+ * @val: arguments.
+ * @num: number
  * Return: the counter
  */
 int printHex_aux(unsigned long int num);
