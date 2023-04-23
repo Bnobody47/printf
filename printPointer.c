@@ -9,7 +9,6 @@
  * @num: number
  * Return: the counter
  */
-int printHex_aux(unsigned long int num);
 
 int printPointer(va_list val)
 {
