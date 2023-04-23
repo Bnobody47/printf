@@ -40,7 +40,7 @@ int revString(char *s);
 int print_37(void);
 int printChar(va_list val);
 int printString(va_list val);
-int _putchar(char c);
+int putChar(char c);
 int _printf(const char *format, ...);
 
 #endif
