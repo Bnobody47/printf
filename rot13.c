@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdarg.h>
+#include <stddef.h>
 
 /**
  * printRot13 - prints the rot13'ed string.
@@ -19,7 +21,7 @@ int printRot13(va_list args)
 	char ar2[] = {"nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM"};
 
 	if (s == NULL)
-		s = "NULL";
+		s = "(null)";
 	for (i = 0; s[i]; i++)
 	{
 		k = 0;
@@ -27,14 +29,14 @@ int printRot13(va_list args)
 		{
 			if (s[i] == ar1[j])
 			{
-				_putchar(ar2[j]);
+				putChar(ar2[j]);
 				counter++;
-				k = 1
+				k = 1;
 			}
 		}
 		if (!k)
 		{
-			_putchar(s[i]);
+			putChar(s[i]);
 			counter++;
 		}
 	}

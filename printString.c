@@ -18,14 +18,14 @@ int printString(va_list val)
 		s = "(null)";
 		len = _strlen(s);
 		for (i = 0; i < len; i++)
-			_putchar(s[i]);
+			putChar(s[i]);
 		return (len);
 	}
 	else
 	{
 		len = _strlen(s);
 		for (i = 0; i < len; i++)
-			_putchar(s[i]);
+			putChar(s[i]);
 		return (len);
 	}
 }
