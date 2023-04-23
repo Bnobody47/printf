@@ -14,11 +14,13 @@ int printRot13(va_list args)
 	int i, j, k, counter;
 	char *s;
 
+
+	char ar1[] = {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
+	char ar2[] = {"nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM"};
+
 	k = 0;
 	counter = 0;
 	s = va_arg(args, char*);
-	char ar1[] = {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
-	char ar2[] = {"nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM"};
 
 	if (s == NULL)
 		s = "(null)";
