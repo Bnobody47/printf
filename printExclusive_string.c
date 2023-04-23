@@ -8,6 +8,7 @@
  * @val: argument.
  * Return: string length
  */
+int printHEX_aux(unsigned long int num);
 
 int printExclusive_string(va_list val)
 {
