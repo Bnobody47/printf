@@ -15,7 +15,7 @@ int printExclusive_string(va_list val)
 	int i, len = 0;
 	int cast;
 
-	s = va_arg(val, cahr *);
+	s = va_arg(val, char *);
 	if (s == NULL)
 		s = "(null)";
 	for (i = 0; s[i] != '\0'; i++)
