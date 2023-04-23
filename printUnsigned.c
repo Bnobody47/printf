@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
 
 /**
  * printUnsigned - prints int
@@ -17,7 +20,7 @@ int printUnsigned(va_list args)
 
 	if (last < 0)
 	{
-		_putchar('-');
+		putchar('-');
 		num = -num;
 		n = -n;
 		last = -last;
@@ -25,7 +28,7 @@ int printUnsigned(va_list args)
 	}
 	if (num > 0)
 	{
-		while (nim / 10 != 0)
+		while (num / 10 != 0)
 		{
 			exp = exp * 10;
 			num = num / 10;
@@ -34,12 +37,12 @@ int printUnsigned(va_list args)
 		while (exp > 0)
 		{
 			digit = num / exp;
-			_putchar(digit + '0');
+			putchar(digit + '0');
 			num = num - (digit * exp);
 			exp = exp / 10;
 			i++;
 		}
 	}
-	_putchar(last + '0');
+	putchar(last + '0');
 	return (i);
 }

@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
 
 /**
  * printOct - prints octal numbers
@@ -29,7 +32,7 @@ int printOct(va_list val)
 	}
 	for (i = counter - 1; i >= 0; i--)
 	{
-		_putchar(array[i] + '0');
+		putchar(array[i] + '0');
 	}
 	free(array);
 	return (counter);

@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
 
 /**
  * printExclusive_string - print exclusives strings.
@@ -19,20 +22,20 @@ int printExclusive_string(va_list val)
 	{
 		if (s[i] < 32 || s[i] >= 127)
 		{
-			_putchar('\\');
-			_putchar('x');
+			putchar('\\');
+			putchar('x');
 			len = len + 2;
 			cast = s[i];
 			if (cast < 16)
 			{
-				_putchar('0');
+				putchar('0');
 				len++;
 			}
 			len = len + printHEX_aux(cast);
 		}
 		else
 		{
-			_putchar(s[i]);
+			putchar(s[i]);
 			len++;
 		}
 	}

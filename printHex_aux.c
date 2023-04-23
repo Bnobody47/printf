@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
 
 /**
  * printHex_aux - a function which prints an hexgecimal num.
@@ -30,7 +33,7 @@ int printHex_aux(unsigned long int num)
 	{
 		if (array[i] > 9)
 			array[i] = array[i] + 39;
-		_putchar(array[i] + '0');
+		putchar(array[i] + '0');
 	}
 	free(array);
 	return (counter);

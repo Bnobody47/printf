@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
 
 /**
  * printPointer - prints an hexgecimal num.
@@ -19,14 +22,14 @@ int printPointer(va_list val)
 	{
 		for (i = 0; s[i] != '\0'; i++)
 		{
-			_putchar(s[i]);
+			putchar(s[i]);
 		}
 		return (i);
 	}
 
 	a = (unsigned long int)p;
-	_putchar('0');
-	_putchar('x');
+	putchar('0');
+	putchar('x');
 	b = printHex_aux(a);
 	return (b + 2);
 }

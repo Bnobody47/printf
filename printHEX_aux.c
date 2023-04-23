@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
 
 /**
  * printHEX_aux - prints a hexdecimal num.
@@ -23,14 +26,14 @@ int printHEX_aux(unsigned int num)
 
 	for (i = 0; i < counter; i++)
 	{
-		array[i] = yemp % 16;
+		array[i] = temp % 16;
 		temp /= 16;
 	}
 	for (i = counter - 1; i >= 0; i--)
 	{
 		if (array[i] > 9)
 			array[i] = array[i] + 7;
-		_putchar(array[i] + '0');
+		putchar(array[i] + '0');
 	}
 	free(array);
 	return (counter);
