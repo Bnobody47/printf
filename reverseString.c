@@ -3,7 +3,7 @@
 /**
  * printSrev - a function that prints string in reverse.
  *
- * @s: char pointer to a string.
+ * @args: argument list.
  * Return: returns integer value.
  */
 
