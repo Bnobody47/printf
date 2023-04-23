@@ -12,7 +12,7 @@ int _printf(const char * const format, ...)
 {
 	convert_match m[] = {
 		{"%s", printString}, {"%c", printChar},
-		{"%%", print_37},
+		{"%%", printPercent},
 		{"%i", printInt}, {"%d", printDec}, {"%r", printSrev},
 		{"%R", printRot13}, {"%b", printBin}, {"%u", printUnsigned},
 		{"%o", printOct}, {"%x", printHex}, {"%X", printHEX},
