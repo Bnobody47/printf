@@ -3,9 +3,9 @@
 #include <stddef.h>
 
 /**
- * printRot13 - prints the rot13'ed string.
+ * printRot13 - a function that prints the rot13'ed string.
  *
- * @args: printf argument.
+ * @args: list of printf argument.
  * Return: returns counter.
  */
 
