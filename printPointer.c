@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * printPointer - prints an hexgecimal num.
+ * printPointer - prints an hedxecimal num.
  * @val: arguments.
  * Return: the counter
  */
