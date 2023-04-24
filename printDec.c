@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * printDec - prints decimal
- * @args: argument to print
+ * printDec - prints a number in its base 10 form
+ * @args: list of arguments to print
  * Return: number of characters printed
  */
 
@@ -42,6 +42,5 @@ int printDec(va_list args)
 		}
 	}
 	putChar(last + '0');
-
 	return (i);
 }
