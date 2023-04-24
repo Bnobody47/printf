@@ -20,7 +20,7 @@ int printUnsigned(va_list args)
 
 	if (last < 0)
 	{
-		putchar('-');
+		putChar('-');
 		num = -num;
 		n = -n;
 		last = -last;
@@ -37,12 +37,12 @@ int printUnsigned(va_list args)
 		while (exp > 0)
 		{
 			digit = num / exp;
-			putchar(digit + '0');
+			putChar(digit + '0');
 			num = num - (digit * exp);
 			exp = exp / 10;
 			i++;
 		}
 	}
-	putchar(last + '0');
+	putChar(last + '0');
 	return (i);
 }
