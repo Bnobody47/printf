@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * printSrev - a function that prints string in reverse.
+ * printSrev - a function that prints a string in reverse.
  *
- * @args: argument list.
+ * @args: list of arguments passed to printf.
  * Return: returns integer value.
  */
 
