@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _printf - is is a function which print the correct function selected.
+ * _printf - a function that prints ouput using the correct format.
+ *
  * @format: identifier to look for.
- * Return: The length of string.
+ * Return: length of string.
  */
 
 int _printf(const char * const format, ...)
@@ -24,7 +25,7 @@ int _printf(const char * const format, ...)
 	if (format == NULL || (format[0] == '%' && format[1] == '\0'))
 		return (-1);
 
-Here:
+Re:
 	while (format[i] != '\0')
 	{
 		j = 13;
@@ -34,7 +35,7 @@ Here:
 			{
 				len += m[j].f(args);
 				i = i + 2;
-				goto Here;
+				goto Re;
 			}
 			j--;
 		}
