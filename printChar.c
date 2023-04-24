@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * printChar - a function that prints a char.
+ * printChar - a function that prints a char at a time.
  *
  * @val: list of characters to be printed.
  * Return: returns 1 upone success.
