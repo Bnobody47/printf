@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * printHex_aux - a function which prints an hexgecimal num.
- * @num: the argument.
+ * printHex_aux - a function that prints a hexadecimal number.
+ * @num: value to be converted to hexadecimal value.
  * Return: count
  */
 
