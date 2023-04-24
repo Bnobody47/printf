@@ -3,7 +3,7 @@
 /**
  * _strlen - a function to determine the length of a string.
  *
- * @s: char pointer to string.
+ * @s: char pointer to a string to determing length for.
  * Return: length of the string.
  */
 
@@ -20,7 +20,7 @@ int _strlen(char *s)
 /**
  * _strlenc - _strlen function for constant char pointer.
  *
- * @s: char pointer to a constant string.
+ * @s: char pointer to a constant string to determine length for.
  * Return: length of s.
  */
 
