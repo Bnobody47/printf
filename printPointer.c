@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdarg.h>
 
 /**
  * printPointer - prints an hexgecimal num.
