@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdarg.h>
-#include <stddef.h>
 
 /**
  * _printf - is is a function which print the correct function selected.
