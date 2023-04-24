@@ -32,7 +32,7 @@ int printOct(va_list val)
 	}
 	for (i = counter - 1; i >= 0; i--)
 	{
-		putchar(array[i] + '0');
+		putChar(array[i] + '0');
 	}
 	free(array);
 	return (counter);
