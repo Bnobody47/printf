@@ -22,14 +22,14 @@ int printPointer(va_list val)
 	{
 		for (i = 0; s[i] != '\0'; i++)
 		{
-			putchar(s[i]);
+			putChar(s[i]);
 		}
 		return (i);
 	}
 
 	a = (unsigned long int)p;
-	putchar('0');
-	putchar('x');
+	putChar('0');
+	putChar('x');
 	b = printHex_aux(a);
 	return (b + 2);
 }

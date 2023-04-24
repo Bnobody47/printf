@@ -22,20 +22,20 @@ int printExclusive_string(va_list val)
 	{
 		if (s[i] < 32 || s[i] >= 127)
 		{
-			putchar('\\');
-			putchar('x');
+			putChar('\\');
+			putChar('x');
 			len = len + 2;
 			cast = s[i];
 			if (cast < 16)
 			{
-				putchar('0');
+				putChar('0');
 				len++;
 			}
 			len = len + printHEX_aux(cast);
 		}
 		else
 		{
-			putchar(s[i]);
+			putChar(s[i]);
 			len++;
 		}
 	}

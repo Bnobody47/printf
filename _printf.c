@@ -40,7 +40,7 @@ Here:
 			}
 			j--;
 		}
-		putchar(format[i]);
+		putChar(format[i]);
 		len++;
 		i++;
 	}

@@ -33,7 +33,7 @@ int printHEX_aux(unsigned int num)
 	{
 		if (array[i] > 9)
 			array[i] = array[i] + 7;
-		putchar(array[i] + '0');
+		putChar(array[i] + '0');
 	}
 	free(array);
 	return (counter);

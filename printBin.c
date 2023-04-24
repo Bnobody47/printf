@@ -25,14 +25,14 @@ int printBin(va_list val)
 		if (flag)
 		{
 			b = p >> (31 - i);
-			putchar(b + 48);
+			putChar(b + 48);
 			count++;
 		}
 	}
 	if (count == 0)
 	{
 		count++;
-		putchar('0');
+		putChar('0');
 	}
 	return (count);
 }
