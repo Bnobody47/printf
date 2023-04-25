@@ -2,7 +2,7 @@
 
 /**
  * printBin - prints binary numbers.
- * @val: argumentes
+ * @val: list of argumentes to be converted into binary number.
  * Return: count.
  */
 
@@ -10,9 +10,11 @@ int printBin(va_list val)
 {
 	int flag = 0;
 	int count = 0;
-	int i, a = 1, b;
+	int i, a, b;
 	unsigned int num = va_arg(val, unsigned int);
 	unsigned int p;
+
+	a = 1;
 
 	for (i = 0; i < 32; i++)
 	{
