@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * printPointer - prints an hedxecimal num.
- * @val: arguments.
- * Return: the counter
+ * printPointer - prints hexadecimal address of a pointer.
+ * @val: list of arguments to be printed.
+ * Return: counter
  */
 
 int printPointer(va_list val)
 {
 	void *p;
-	char *s = "(nil)";
+	char *s = "NULL";
 	long int a;
 	int b;
 	int i;
