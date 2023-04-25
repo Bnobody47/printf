@@ -30,7 +30,7 @@ int printHex(va_list val)
 	for (i = counter - 1; i >= 0; i--)
 	{
 		if (array[i] > 9)
-			array[i] = array[i] + 7;
+			array[i] = array[i] + 39;
 		putChar(array[i] + '0');
 	}
 	free(array);
