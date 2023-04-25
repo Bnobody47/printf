@@ -9,7 +9,7 @@
 int printPointer(va_list val)
 {
 	void *p;
-	char *s = "(nil)";
+	char *s = "(null)";
 	long int a;
 	int b;
 	int i;
@@ -27,6 +27,6 @@ int printPointer(va_list val)
 	a = (unsigned long int)p;
 	putChar('0');
 	putChar('x');
-	b = printHEX_aux(a);
+	b = printHex_aux(a);
 	return (b + 2);
 }
