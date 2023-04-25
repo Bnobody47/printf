@@ -9,7 +9,7 @@
 int printPointer(va_list val)
 {
 	void *p;
-	char *s = "(null)";
+	char *s = "(nil)";
 	long int a;
 	int b;
 	int i;
