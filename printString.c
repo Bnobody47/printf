@@ -4,7 +4,7 @@
  * printString - a function that prints strings.
  *
  * @val: list of strings to be printed.
- * Return: length of the string printed to the stdout.
+ * Return: length of string printed to the stdout.
  */
 
 int printString(va_list val)
