@@ -10,7 +10,7 @@ int printExclusive_string(va_list val)
 {
 	char *s;
 	int i, len = 0;
-	int cast;
+	int delta;
 
 	s = va_arg(val, char *);
 	if (s == NULL)
@@ -22,13 +22,13 @@ int printExclusive_string(va_list val)
 			putChar('\\');
 			putChar('x');
 			len = len + 2;
-			cast = s[i];
-			if (cast < 16)
+			delta = s[i];
+			if (delta < 16)
 			{
 				putChar('0');
 				len++;
 			}
-			len = len + printHEX_aux(cast);
+			len = len + printHex_aux(delta);
 		}
 		else
 		{
