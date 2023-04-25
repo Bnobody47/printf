@@ -28,7 +28,7 @@ int printExclusive_string(va_list val)
 				putChar('0');
 				len++;
 			}
-			len = len + printHex_aux(delta);
+			len = len + printHEX_aux(delta);
 		}
 		else
 		{
