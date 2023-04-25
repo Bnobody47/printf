@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * printPercent - a functiont to print % symbol - ASCII code 37
+ * printPercent - a functiont to print % symbol  by - ASCII code 37
  * Return: returns 1 upon success.
  */
 
