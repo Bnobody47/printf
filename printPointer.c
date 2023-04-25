@@ -28,5 +28,5 @@ int printPointer(va_list val)
 	putChar('0');
 	putChar('x');
 	b = printHex_aux(a);
-	return (b + 2);
+	return (b);
 }
