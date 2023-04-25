@@ -3,7 +3,7 @@
 /**
  * printBin - prints binary numbers.
  * @val: list of argumentes to be converted into binary number.
- * Return: count.
+ * Return: the count.
  */
 
 int printBin(va_list val)
